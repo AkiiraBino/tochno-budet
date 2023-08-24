@@ -27,6 +27,23 @@ services:
     environment:
       - DEBUG=1
 
+  frontend:
+    container_name: frontend
+    build:
+      dockerfile: Dockerfile
+      context: ./frontend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    env_file:
+      - .env
+    depends_on:
+      - backend
+    ports:
+      - "4000:4000"
+    environment:
+      - DEBUG=1
+
   nginx:
     image: nginx:1.23
     container_name: nginx
