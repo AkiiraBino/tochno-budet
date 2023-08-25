@@ -1,0 +1,10 @@
+.icon_style{
+    width: 40px;
+    height: 40px;
+}
+
+.main{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
