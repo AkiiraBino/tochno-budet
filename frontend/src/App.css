@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'play-bold';
+    src: url('../public/media/fonts/Play-Bold.ttf')
+  }
+
+*{
+    color: white;
+    background-color: black;
+    font-family: 'play-bold';
+    text-decoration: none;
+}
