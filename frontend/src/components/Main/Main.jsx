@@ -7,6 +7,6 @@ export default function Main() {
     <main>
       <VideoIntro/>
       <About/>
-    </main>
+    </main> 
   )
 }

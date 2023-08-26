@@ -6,7 +6,7 @@ import styles from './About.module.css'
 
 export default function About() {
   return (
-    <Grid container paddingBottom={5} paddingLeft={10}>
+    <Grid container paddingLeft={10}>
         <Grid item md={4} xs={12}>    
             <img src='/media/photo/about2.jpg' className={styles.about_img}/>
         </Grid>
