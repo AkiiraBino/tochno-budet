@@ -4,7 +4,5 @@
 }
 
 .main{
-    position: absolute;
-    bottom: 25px;
-    left: 25px;
+    flex: 5 5 auto;
 }
