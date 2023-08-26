@@ -14,18 +14,8 @@ function App() {
           integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
           crossorigin="anonymous"
       />
-      <Container>
-        <Row>
-          <Col>
-            <Header/>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <Footer/>
-          </Col>
-        </Row>
-      </Container>
+      <Header></Header>
+      <Footer></Footer>
 
     </div>
   );
