@@ -1,23 +1,23 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
 
 import styles from './Navigate.module.css'
+import { Grid } from '@mui/material'
 
 
 export default function Navigate() {
   return (
-      <Container>
-        <Row>
-          <Col md={4} sm={4} className={styles.main}>
-            <a href='#' className={styles.font_style}>Music</a>
-          </Col>
-          <Col md={4} sm={4} className={styles.main}>
-            <a href='#' className={styles.font_style}>Photo</a>
-          </Col>
-          <Col md={4} sm={4} className={styles.main}>
-            <a href='#' className={styles.font_style}>Video</a>
-          </Col>
-        </Row>
-      </Container>
+    <Grid container justifyContent={'center'} alignItems={'center'} className={styles.main}>
+      <Grid item md={2} xs={4}>
+        <a href='#' className={styles.font_style}>Music</a>
+      </Grid>
+      <Grid item md={2} xs={4}>
+        <a href='#' className={styles.font_style}>Photo</a>
+      </Grid>
+      <Grid item md={2} xs={4}>
+        <a href='#' className={styles.font_style}>Video</a>
+      </Grid>
+    </Grid>
+    
+
   )
 }
